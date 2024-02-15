@@ -33,6 +33,7 @@ jobs:
         run: |
           npm install
           npm run build
+          npm run -w web deploy
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
